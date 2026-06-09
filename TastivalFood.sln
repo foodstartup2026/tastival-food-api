@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33424.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastivalFood.Domain", "src\TastivalFood.Domain\TastivalFood.Domain.csproj", "{7B716F01-1C4E-4C9B-A3CF-0F3D92F1F071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastivalFood.Application", "src\TastivalFood.Application\TastivalFood.Application.csproj", "{735C2CBB-FF30-45DF-A66C-7A1A222A4D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastivalFood.Infrastructure", "src\TastivalFood.Infrastructure\TastivalFood.Infrastructure.csproj", "{41FC0C82-411E-4B68-AED4-505B3F32F5D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastivalFood.Api", "src\TastivalFood.Api\TastivalFood.Api.csproj", "{2AFC1E22-9C6F-4D1A-B8FA-3F8D9EFABBC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastivalFood.UnitTests", "tests\TastivalFood.UnitTests\TastivalFood.UnitTests.csproj", "{06B84743-4DC4-4A4E-9169-41F61367F8A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastivalFood.IntegrationTests", "tests\TastivalFood.IntegrationTests\TastivalFood.IntegrationTests.csproj", "{D0130E3B-4109-4DF0-BF3C-5A37C0272F11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B716F01-1C4E-4C9B-A3CF-0F3D92F1F071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B716F01-1C4E-4C9B-A3CF-0F3D92F1F071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B716F01-1C4E-4C9B-A3CF-0F3D92F1F071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B716F01-1C4E-4C9B-A3CF-0F3D92F1F071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735C2CBB-FF30-45DF-A66C-7A1A222A4D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735C2CBB-FF30-45DF-A66C-7A1A222A4D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735C2CBB-FF30-45DF-A66C-7A1A222A4D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735C2CBB-FF30-45DF-A66C-7A1A222A4D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41FC0C82-411E-4B68-AED4-505B3F32F5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41FC0C82-411E-4B68-AED4-505B3F32F5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41FC0C82-411E-4B68-AED4-505B3F32F5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41FC0C82-411E-4B68-AED4-505B3F32F5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFC1E22-9C6F-4D1A-B8FA-3F8D9EFABBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFC1E22-9C6F-4D1A-B8FA-3F8D9EFABBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFC1E22-9C6F-4D1A-B8FA-3F8D9EFABBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFC1E22-9C6F-4D1A-B8FA-3F8D9EFABBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B84743-4DC4-4A4E-9169-41F61367F8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B84743-4DC4-4A4E-9169-41F61367F8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B84743-4DC4-4A4E-9169-41F61367F8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B84743-4DC4-4A4E-9169-41F61367F8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0130E3B-4109-4DF0-BF3C-5A37C0272F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0130E3B-4109-4DF0-BF3C-5A37C0272F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0130E3B-4109-4DF0-BF3C-5A37C0272F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0130E3B-4109-4DF0-BF3C-5A37C0272F11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
